@@ -74,7 +74,9 @@ ibus-setup
 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmoesZ%2FbtrVmYtfs1x%2FpM8fskh3B7skkze8WgyhDK%2Fimg.png)
 
-이는 한글 키보드로 전환시 기본적으로 입력기의 언어를 한글모드로 만든다는 의미의 설정으로 위 사진처럼 체크하시고 `Apply` -> `OK` 를 눌러 설정을 완료합니다.  <br/><br/><br/><br/>  
+이는 한글 키보드로 전환시 기본적으로 입력기의 언어를 한글모드로 만든다는 의미의 설정으로 위 사진처럼 체크한 뒤
+
+아래의 `Apply` -> `OK` 를 눌러 설정을 완료합니다.  <br/><br/><br/><br/>  
 
 
 
