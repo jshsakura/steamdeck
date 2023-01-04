@@ -18,22 +18,24 @@
 
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
-#### 한글 관련 설치 스크립트 다운로드
+### 한글 관련 패키지 설치 스크립트 다운로드
 ```sh
 curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
 ```
 
-#### 한글 관련 설치 스크립트 실행
+
+### 한글 관련 패키지 설치 실행
 ```sh
 sh ./korean_setting.sh
 ```
 
-#### ibus 데몬 실행
+
+### ibus 데몬 실행
 ```sh
 ibus-daemon -drxR
 ```
 
-#### ibus 설정화면 실행
+### ibus 설정화면 실행
 ```sh
 ibus-setup
 ```
