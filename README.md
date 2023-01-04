@@ -1,5 +1,6 @@
 # 스팀덱 3.4.4 한글설정 ibus install 간소화
 
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUAGSD%2FbtrVo5rsvE4%2FtK46tvRObfgwl7Kl2DaIs1%2Fimg.png)
 현재 스팀덱의 데스크탑모드의 한글 입력은 기본적으로 빠져 있습니다.
 
 특히나 3.5.X 버전부터 사용하게될 fcitx5를 3.4.X 에서 사용할 경우
@@ -13,13 +14,15 @@
 
 
 
-
-
 한줄씩 실행하시면 기존 fcitx pacman 종속성을 삭제하고 ibus 종속성을 설치하도록 작성했습니다.
 
 
 
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
+
+
+
+
 
 ### 한글 관련 패키지 설치용 sh 다운로드
 ```sh
