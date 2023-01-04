@@ -55,13 +55,13 @@ ibus-setup
 <br/><br/> <br/><br/> 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIOxaK%2FbtrVmX1pqok%2FSTb1FAIUMh0f08AiC5UR6K%2Fimg.png)
 
-`ibus 설정 화면`에서 `Keyboard Shortcuts` 단축키를 변경합니다. <br/><br/>  
+`ibus 설정 화면`에서 `Keyboard Shortcuts` 단축키를 변경합니다. <br/><br/><br/><br/>   
 
 
    
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOwEN4%2FbtrVfrXtkFM%2FKDdNU0axWpZ2VdkSE22Agk%2Fimg.png)
 
-설정 화면 두번째 탭인 `Input Method` 탭에서 `korean` -> `hangul` 입력기를 추가합니다.  <br/><br/> 
+설정 화면 두번째 탭인 `Input Method` 탭에서 `korean` -> `hangul` 입력기를 추가합니다.  <br/><br/><br/><br/>  
 
 
 
@@ -69,12 +69,12 @@ ibus-setup
 
 한글 키보드로 전환시 바로 한글로 동작하도록 설정이 필요합니다.
 
-`Korean - Hangul` 을 선택한채로 우측의 `Preference` 를 눌러주세요.  <br/><br/> 
+`Korean - Hangul` 을 선택한채로 우측의 `Preference` 를 눌러주세요.  <br/><br/><br/><br/> 
 
 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FmoesZ%2FbtrVmYtfs1x%2FpM8fskh3B7skkze8WgyhDK%2Fimg.png)
 
-이는 한글 키보드로 전환시 기본적으로 입력기의 언어를 한글모드로 만든다는 의미의 설정으로 위 사진처럼 체크하시고 `Apply` -> `OK` 를 눌러 설정을 완료합니다.  <br/><br/> 
+이는 한글 키보드로 전환시 기본적으로 입력기의 언어를 한글모드로 만든다는 의미의 설정으로 위 사진처럼 체크하시고 `Apply` -> `OK` 를 눌러 설정을 완료합니다.  <br/><br/><br/><br/>  
 
 
 
