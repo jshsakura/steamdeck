@@ -18,7 +18,7 @@ sudo pacman -S --noconfirm plasma
 # ibus 입력기 및 한글 종속성 추가 설치
 yes | sudo pacman -S ibus ibus-hangul libhangul
 
-# 기존 fcitx 패키지가 존재하면 삭제 
+# 기존 fcitx 관련 패키지가 존재하면 삭제
 if pacman -Qs fcitx5-im > /dev/null ; then
     sudo pacman -R --noconfirm fcitx5-im
     echo "The package fcitx5-im is removed"
