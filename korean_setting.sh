@@ -46,12 +46,12 @@ sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 
 # 데스크탑 환경에서 데몬 자동실행을 위해 .bashrc 에 추가
-sed -i "0s/$/\nexport GTK_IM_MODULE=ibus\nexport QT_IM_MODULE=ibus\nexport XMODIFIERS=@im=ibus\n/g" $HOME/.bashrc
+sed -i "1s/$/\nexport GTK_IM_MODULE=ibus\nexport QT_IM_MODULE=ibus\nexport XMODIFIERS=@im=ibus\n/g" $HOME/.bashrc
 
 # 읽기전용 스팀 OS 설정 활성화(원복)
 sudo steamos-readonly enable
 
 echo -e ""
-echo -e "korean setting finished!\n"
+echo -e "korean setting finished! please Reboot!\n"
 
 exit 0
