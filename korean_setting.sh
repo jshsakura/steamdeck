@@ -52,6 +52,7 @@ sudo steamos-readonly enable
 
 # ibus 최초 설정을 위해 데몬 실행
 ibus-daemon -drxR
+ibus-setup
 
 echo -e ""
 echo -e "korean setting finished!\n"
