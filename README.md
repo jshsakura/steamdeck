@@ -17,7 +17,7 @@
 한줄씩 실행하시면 기존 fcitx pacman 종속성을 삭제하고 ibus 종속성을 설치하도록 작성했습니다.
 
 
-
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5uPwm%2FbtrVkWV5SCj%2Fi6FD7lCZLffJtSO0rYjveK%2Fimg.png)
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
 
