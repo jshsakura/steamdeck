@@ -10,7 +10,7 @@
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
 ```sh
-  curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
+curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
 ```
 
 ```sh
