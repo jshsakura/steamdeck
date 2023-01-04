@@ -43,6 +43,8 @@ ibus-setup
 ```
 
 
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOwEN4%2FbtrVfrXtkFM%2FKDdNU0axWpZ2VdkSE22Agk%2Fimg.png)
+
 쉘파일 설치가 끝나면 ibus 설정 화면에서 Keyboard Shortcuts 단축키를 변경합니다.
 
 설정 화면 두번째 Input Method 탭에서 korean -> hangul 입력기를 추가하고 사용하시면 되겠습니다.
