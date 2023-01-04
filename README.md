@@ -3,9 +3,10 @@
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUAGSD%2FbtrVo5rsvE4%2FtK46tvRObfgwl7Kl2DaIs1%2Fimg.png)
 현재 스팀덱의 데스크탑모드의 한글 입력은 기본적으로 빠져 있습니다.
 
-특히나 3.5.X 버전부터 사용하게될 fcitx5를 3.4.X 에서 사용할 경우
+특히나 fcitx5를 3.4.4 에서 사용할 경우 단어 단위 설정을 끄고 진행하더라도
 
-단어 단위 설정을 끄고 진행해도 띄어쓰기가 글자 앞으로 튀어 나오는등 정신을 못차리고 있는데요.
+
+마지막 문자의 띄어쓰기가 글자 앞으로 튀어 나오는등 정신을 못차리고 있는데요.
 
 
 이를 해결하기 위해 몇가지 입력기를 테스트 해보았으며 결과적으로 ibus를 사용하는 것이 낫다는 판단이 섰습니다.
