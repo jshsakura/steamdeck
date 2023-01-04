@@ -20,7 +20,7 @@
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQbIXD%2FbtrVjm129XQ%2FOjKvJHzfnumfiZdOjW3wP0%2Fimg.png)
 
 
-어플리케이션 런처에서 `Konsole`을 실행합니다.  <br/><br/> 
+어플리케이션 런처에서 `Konsole`을 실행합니다.  <br/><br/><br/><br/> 
 
  
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5uPwm%2FbtrVkWV5SCj%2Fi6FD7lCZLffJtSO0rYjveK%2Fimg.png)
@@ -83,14 +83,14 @@ ibus-setup
 재부팅 이후에는 우측 하단의 데몬이 보이질 않는데 이는 스팀OS 데스크탑 모드의 문제로 보입니다.
 
 
-단축키만 등록되어 있다면 잘 동작하며 크롬 및 터미널 사용에 문제가 없었습니다.
+단축키만 등록되어 있다면 잘 동작하며 크롬 및 터미널 사용에 문제가 없었습니다.<br/><br/><br/><br/>
 
    
 모두 한글 입력의 고통에서 벗어나시길 바라며 작성합니다.
 
 
   
-<br/><br/>
+<br/><br/><br/><br/>
 ### 초심자를 위한 자세한 안내
 ---
 
