@@ -20,7 +20,7 @@
 
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
-### 한글 관련 패키지 설치 스크립트 다운로드
+### 한글 관련 패키지 설치용 sh 다운로드
 ```sh
 curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
 ```
