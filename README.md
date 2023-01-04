@@ -26,7 +26,9 @@ curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/stea
 sh ./korean_setting.sh
 ```
 
-
+```sh
+ibus-daemon -drxR
+```
 
 모두 한글입력의 고통에서 벗어나시길 바랍니다.
 
@@ -42,4 +44,6 @@ https://opencourse.tistory.com/769
 만약 리눅스에 대해 문외한인 전체과정이 필요한 뉴비라면 개인 블로그에 전문을 올려놓았으니 참고해보시기 바랍니다.
 
 
-설치가 끝나면 입력기에 hangul 입력기를 추가하고 사용하시면 되겠습니다.
+쉘파일 설치가 끝나면 트레이에 ibus를 실행하고 우클릭을 해줍니다.
+입력기에 korean -> hangul 입력기를 추가하고 사용하시면 되겠습니다.
+
