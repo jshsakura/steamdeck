@@ -18,9 +18,14 @@
 
 한줄씩 실행하시면 기존 fcitx pacman 종속성을 삭제하고 ibus 종속성을 설치하도록 작성했습니다.
 
-  
+
+![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQbIXD%2FbtrVjm129XQ%2FOjKvJHzfnumfiZdOjW3wP0%2Fimg.png)
+어플리케이션 런처에서 Konsole을 실행합니다.
+
+
+ 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5uPwm%2FbtrVkWV5SCj%2Fi6FD7lCZLffJtSO0rYjveK%2Fimg.png)
-Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
+Konsole을 실행되면 아래 내용을 하나씩 복사 붙여넣기를 해주세요.
 
   
 ### 한글 관련 패키지 설치용 sh 다운로드
@@ -46,17 +51,17 @@ ibus-setup
 
   
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIOxaK%2FbtrVmX1pqok%2FSTb1FAIUMh0f08AiC5UR6K%2Fimg.png)
-쉘파일 설치가 끝나면 ibus 설정 화면에서 Keyboard Shortcuts 단축키를 변경합니다.
+ibus 설정 화면에서 Keyboard Shortcuts 단축키를 변경합니다.
 
    
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOwEN4%2FbtrVfrXtkFM%2FKDdNU0axWpZ2VdkSE22Agk%2Fimg.png)
-설정 화면 두번째 Input Method 탭에서 korean -> hangul 입력기를 추가하고 사용하시면 되겠습니다.
+설정 화면 두번째 탭인 Input Method 탭에서 korean -> hangul 입력기를 추가하고 사용하시면 되겠습니다.
 
   
 재부팅 이후에는 우측 하단의 데몬이 보이질 않는데 이는 스팀OS 데스크탑 모드의 문제로 보입니다.
 
 
-단축키만 등록되어 있다면 사용에는 문제가 없었습니다.
+단축키만 등록되어 있다면 잘 동작하며 크롬 및 터미널 사용에 문제가 없었습니다.
 
    
 모두 한글입력의 고통에서 벗어나시길 바랍니다.
