@@ -58,7 +58,10 @@ ibus-setup
 ### 5. ibus 설정하기
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIOxaK%2FbtrVmX1pqok%2FSTb1FAIUMh0f08AiC5UR6K%2Fimg.png)
 
-`ibus 설정 화면`에서 `Keyboard Shortcuts` 단축키를 변경합니다. <br/><br/><br/><br/>   
+`ibus 설정 화면`에서 `Keyboard Shortcuts` 단축키를 변경합니다. 
+
+사실상 위 숏컷에 설정된 키가 앞으로 사용할 한/영 전환키나 다름 없으니 문제 없는 `시프트` + `스페이스` 조합을 추천합니다.
+<br/><br/><br/><br/>   
 
 
    
