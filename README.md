@@ -18,6 +18,7 @@
 
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
+### ibus 설치 스크립트 다운로드
 ```sh
 curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
 ```
@@ -35,7 +36,7 @@ ibus-setup
 ```
 
 
-쉘파일 설치가 끝나면 트레이에 ibus를 데몬을 실행해줍니다.
+쉘파일 설치가 끝나면 트레이에 ibus를 데몬을 실행하고 ibus 설정을 열어줍니다.
 
 ibus 설정 화면에서 Keyboard Shortcuts에서 단축키를 변경합니다.
 
