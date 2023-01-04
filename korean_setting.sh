@@ -22,30 +22,23 @@ sudo pacman -S --noconfirm ibus ibus-hangul libhangul
 if pacman -Qs fcitx5-im > /dev/null ; then
     sudo pacman -R --noconfirm fcitx5-im
     echo "The package fcitx5-im is removed"
-else
-  echo "The package fcitx5-im is not installed"
 fi
 
 if pacman -Qs fcitx5-hangul > /dev/null ; then
     sudo pacman -R --noconfirm fcitx5-hangul
     echo "The package fcitx5-hangul is removed"
-else
-  echo "The package fcitx5-hangul is not installed"
 fi
 
 if pacman -Qs fcitx5-configtool > /dev/null ; then
     sudo pacman -R --noconfirm fcitx5-configtool
     echo "The package fcitx5-configtool is removed"
-else
-  echo "The package fcitx5-configtool is not installed"
 fi
 
-# 기존 fcitx 설정 문구가 있다면 중복실행 방지를 위해 삭제
+# 기존 fcitx 설정 문구가 있다면 삭제
 sudo sed -i "s%GTK_IM_MODULE=fcitx%%" /etc/environment
 sudo sed -i "s%QT_IM_MODULE=fcitx%%" /etc/environment
 sudo sed -i "s%XMODIFIERS=@im=fcitx%%" /etc/environment
-
-# 기존 ibus 설정 문구가 있다면 중복실행 방지를 위해 삭제
+# 기존 ibus 설정 문구가 있다면 삭제
 sudo sed -i "s%GTK_IM_MODULE=ibus%%" /etc/environment
 sudo sed -i "s%QT_IM_MODULE=ibus%%" /etc/environment
 sudo sed -i "s%XMODIFIERS=@im=ibus%%" /etc/environment
@@ -59,5 +52,8 @@ sudo steamos-readonly enable
 
 # ibus 최초 설정을 위해 데몬 실행
 ibus-daemon -drxR
+
+echo -e ""
+echo -e "korean setting finished!\n"
 
 exit 0
