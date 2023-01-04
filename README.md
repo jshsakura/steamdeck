@@ -64,7 +64,9 @@ ibus-setup
   
 PS: 루트 파티션 용량 5기가 실화입니까....  
 
+
   
+---  
 ### 초보자용 가이드 
 https://opencourse.tistory.com/769
 
