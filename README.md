@@ -14,7 +14,7 @@
 쉘까지 만들어가며 공개해주시는 분들이 있기에 저역시 정보성으로 공개해봅니다.
 
 
-한줄씩 실행하시면 기존 `fcitx` `pacman` 종속성을 삭제하고 `ibus` 관련 종속성을 설치하도록 작성했습니다.  <br/><br/> 
+한줄씩 실행하시면 기존 `fcitx` `pacman` 종속성을 삭제하고 `ibus` 관련 종속성을 설치하도록 작성했습니다.  <br/><br/> <br/><br/> 
 
 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQbIXD%2FbtrVjm129XQ%2FOjKvJHzfnumfiZdOjW3wP0%2Fimg.png)
