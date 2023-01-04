@@ -90,7 +90,7 @@ ibus-setup
 
   
 <br/><br/>
-### 초심자를 위한 자세한 안내
+### 초심자를 위한 조금 더 자세한 안내
 ---
 
 [스팀덱 ibus 설치 가이드](https://opencourse.tistory.com/769)
