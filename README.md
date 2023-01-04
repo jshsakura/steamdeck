@@ -10,13 +10,12 @@
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
 ```sh
-{
   curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
-  sudo sh ./korean_setting.sh
-}
 ```
 
-
+```sh
+sh ./korean_setting.sh
+```
 
 모두 한글입력의 고통에서 벗어나시길 바랍니다.
 
