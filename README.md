@@ -9,8 +9,14 @@
 한줄씩 실행하시면 기존 fcitx pacman 종속성을 삭제하고 ibus 종속성을 설치하도록 작성했습니다.
 Konsole을 실행하고 한줄씩 복사 붙여넣기를 해주세요.
 
-curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
-sudo sh ./korean_setting.sh
+```sh
+{
+  curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
+  sudo sh ./korean_setting.sh
+}
+```
+
+
 
 모두 한글입력의 고통에서 벗어나시길 바랍니다.
 
