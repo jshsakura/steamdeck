@@ -1,4 +1,4 @@
-# 스팀덱 3.4.4 한글설정 ibus install 간소화
+# 스팀 OS 3.4.4 한글 로케일 및 ibus 입력기 설치 간소화
 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUAGSD%2FbtrVo5rsvE4%2FtK46tvRObfgwl7Kl2DaIs1%2Fimg.png)
 
