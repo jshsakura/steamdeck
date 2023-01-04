@@ -29,31 +29,33 @@
 `Konsole`을 실행되면 아래 내용을 하나씩 복사 붙여넣기를 해주세요. <br/><br/> <br/><br/> 
 
   
-### 한글 관련 패키지 설치용 sh 다운로드
+### 1. 한글 관련 패키지 설치용 sh 다운로드
 ```sh
 curl -fsSL -o korean_setting.sh https://raw.githubusercontent.com/jshsakura/steamdeck/main/korean_setting.sh
 ```
 
 <br/><br/>  
-### 한글 관련 패키지 설치 실행
+### 2. 한글 관련 패키지 설치 실행
 ```sh
 sh ./korean_setting.sh
 ```
 
 <br/><br/>   
-### ibus 데몬 실행
+### 3. ibus 데몬 실행
 ```sh
 ibus-daemon -drxR
 ```
 
 <br/><br/>  
-### ibus 설정화면 실행
+### 4. ibus 설정화면 실행
 ```sh
 ibus-setup
 ```
 
 
-<br/><br/> <br/><br/> 
+<br/><br/>
+
+### 5. ibus 설정하기
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIOxaK%2FbtrVmX1pqok%2FSTb1FAIUMh0f08AiC5UR6K%2Fimg.png)
 
 `ibus 설정 화면`에서 `Keyboard Shortcuts` 단축키를 변경합니다. <br/><br/><br/><br/>   
