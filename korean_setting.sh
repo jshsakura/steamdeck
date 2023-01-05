@@ -10,13 +10,13 @@ sudo pacman-key --init
 sudo pacman-key --populate archlinux
 
 # 한글폰트 추가
-yes | sudo pacman -S terminus-font noto-fonts-cjk ttf-dejavu
+yes | sudo pacman -S --needed terminus-font noto-fonts-cjk ttf-dejavu
 
 # GNU의 C 라이브러리 구현 추가
-yes | sudo pacman -S glibc
+yes | sudo pacman -S --needed glibc
 
 # 다국어 설정 - 국제화 프레임워크 추가 (설정에서 한국어 선택 가능)
-yes | sudo pacman -S ki18n
+yes | sudo pacman -S --needed ki18n
 
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
@@ -109,7 +109,7 @@ sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 
 # ibus 입력기 및 한글 종속성 추가 설치
-yes | sudo pacman -S ---needed ibus ibus-hangul libhangul
+yes | sudo pacman -S --needed ibus ibus-hangul libhangul
 
 # /etc/environment
 sudo sed -i "5s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
