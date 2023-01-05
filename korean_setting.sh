@@ -27,15 +27,15 @@ then
     yes | sudo pacman -R fcitx-configtool
     echo "The package fcitx-configtool is removed"
 fi
-if pacman -Qs fcitx-im > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx-im
-    echo "The package fcitx-im is removed"
-fi
 if pacman -Qs fcitx-hangul > /dev/null ; 
 then
     yes | sudo pacman -R fcitx-hangul
     echo "The package fcitx-hangul is removed"
+fi
+if pacman -Qs fcitx-im > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-im
+    echo "The package fcitx-im is removed"
 fi
 if pacman -Qs fcitx-qt5 > /dev/null ; 
 then
