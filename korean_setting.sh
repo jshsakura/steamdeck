@@ -40,12 +40,6 @@ then
     echo "The package fcitx5-configtool is removed"
 fi
 
-if pacman -Qs libhangul > /dev/null ; 
-then
-    yes | sudo pacman -R libhangul
-    echo "The package libhangul is removed"
-fi
-
 # 기존 fcitx 설정 문구가 있다면 삭제
 sudo sed -i "s%GTK_IM_MODULE=fcitx%%" /etc/environment
 sudo sed -i "s%QT_IM_MODULE=fcitx%%" /etc/environment
@@ -63,7 +57,8 @@ sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 
 # ibus 입력기 및 한글 종속성 추가 설치
-yes | sudo pacman -S ibus ibus-hangul libhangul
+yes | sudo pacman -S ibus ibus-hangul
+yes | sudo pacman -S --overwrite "*" libhangul
 
 # /etc/environment
 sudo sed -i "5s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
