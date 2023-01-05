@@ -22,10 +22,10 @@ yes | sudo pacman -S ki18n
 sudo pacman -S --noconfirm plasma
 
 # 기존 fcitx 패키지가 존재하면 삭제
-if pacman -Qs fcitx > /dev/null ; 
+if pacman -Qs fcitx-configtool > /dev/null ; 
 then
-    yes | sudo pacman -R fcitx-im
-    echo "The package fcitx is removed"
+    yes | sudo pacman -R fcitx-configtool
+    echo "The package fcitx-configtool is removed"
 fi
 if pacman -Qs fcitx-im > /dev/null ; 
 then
@@ -37,14 +37,29 @@ then
     yes | sudo pacman -R fcitx-hangul
     echo "The package fcitx-hangul is removed"
 fi
-if pacman -Qs fcitx5-configtool > /dev/null ; 
+if pacman -Qs fcitx-qt5 > /dev/null ; 
 then
-    yes | sudo pacman -R fcitx-configtool
-    echo "The package fcitx-configtool is removed"
+    yes | sudo pacman -R fcitx-qt5
+    echo "The package fcitx-qt5 is removed"
+fi
+if pacman -Qs fcitx-qt6 > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-qt6
+    echo "The package fcitx-qt6 is removed"
+fi
+if pacman -Qs fcitx > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx
+    echo "The package fcitx is removed"
 fi
 
 
 # 기존 fcitx5 패키지가 존재하면 삭제
+if pacman -Qs fcitx5-configtool > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-configtool
+    echo "The package fcitx5-configtool is removed"
+fi
 if pacman -Qs fcitx5-im > /dev/null ; 
 then
     yes | sudo pacman -R fcitx5-im
@@ -55,11 +70,17 @@ then
     yes | sudo pacman -R fcitx5-hangul
     echo "The package fcitx5-hangul is removed"
 fi
-if pacman -Qs fcitx5-configtool > /dev/null ; 
+if pacman -Qs fcitx5-anthy > /dev/null ; 
 then
-    yes | sudo pacman -R fcitx5-configtool
-    echo "The package fcitx5-configtool is removed"
+    yes | sudo pacman -R fcitx5-anthy
+    echo "The package fcitx5-anthy is removed"
 fi
+if pacman -Qs fcitx5 > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5
+    echo "The package fcitx5 is removed"
+fi
+
 
 # 기존 fcitx 설정 문구가 있다면 삭제
 sudo sed -i "s%GTK_IM_MODULE=fcitx%%" /etc/environment
