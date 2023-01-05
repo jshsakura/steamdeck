@@ -21,23 +21,29 @@ yes | sudo pacman -S ki18n
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
 
-# ibus 입력기 및 한글 종속성 추가 설치
-yes | sudo pacman -S ibus ibus-hangul libhangul
-
 # 기존 fcitx 패키지가 존재하면 삭제 
-if pacman -Qs fcitx5-im > /dev/null ; then
-    sudo pacman -R --noconfirm fcitx5-im
+if pacman -Qs fcitx5-im > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-im
     echo "The package fcitx5-im is removed"
 fi
 
-if pacman -Qs fcitx5-hangul > /dev/null ; then
-    sudo pacman -R --noconfirm fcitx5-hangul
+if pacman -Qs fcitx5-hangul > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-hangul
     echo "The package fcitx5-hangul is removed"
 fi
 
-if pacman -Qs fcitx5-configtool > /dev/null ; then
-    sudo pacman -R --noconfirm fcitx5-configtool
+if pacman -Qs fcitx5-configtool > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-configtool
     echo "The package fcitx5-configtool is removed"
+fi
+
+if pacman -Qs libhangul > /dev/null ; 
+then
+    yes | sudo pacman -R libhangul
+    echo "The package libhangul is removed"
 fi
 
 # 기존 fcitx 설정 문구가 있다면 삭제
@@ -55,6 +61,9 @@ sudo sed -i "/^$/d" /etc/environment
 sed -i "/export GTK_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
+
+# ibus 입력기 및 한글 종속성 추가 설치
+yes | sudo pacman -S ibus ibus-hangul libhangul
 
 # /etc/environment
 sudo sed -i "5s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
