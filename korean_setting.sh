@@ -22,6 +22,11 @@ yes | sudo pacman -S ki18n
 sudo pacman -S --noconfirm plasma
 
 # 기존 fcitx 패키지가 존재하면 삭제
+if pacman -Qs fcitx > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-im
+    echo "The package fcitx is removed"
+fi
 if pacman -Qs fcitx-im > /dev/null ; 
 then
     yes | sudo pacman -R fcitx-im
