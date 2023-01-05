@@ -26,7 +26,10 @@
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5uPwm%2FbtrVkWV5SCj%2Fi6FD7lCZLffJtSO0rYjveK%2Fimg.png)
 
 
-`Konsole`을 실행되면 아래 내용을 하나씩 복사 붙여넣기를 해주세요. <br/><br/> <br/><br/> 
+`Konsole`을 실행되면 아래 내용을 하나씩 복사 붙여넣기를 해주세요. 
+
+`sudo` 사용을 위해 패스워드를 요구하니 반드시 사전에 `passwd`로 비밀번호를 설정해두셔야합니다.
+<br/><br/> <br/><br/> 
 
   
 ### 1. 한글 관련 패키지 설치용 sh 다운로드 및 실행
