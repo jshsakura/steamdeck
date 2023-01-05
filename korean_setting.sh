@@ -21,19 +21,35 @@ yes | sudo pacman -S ki18n
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
 
-# 기존 fcitx 패키지가 존재하면 삭제 
+# 기존 fcitx 패키지가 존재하면 삭제
+if pacman -Qs fcitx-im > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-im
+    echo "The package fcitx-im is removed"
+fi
+if pacman -Qs fcitx-hangul > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-hangul
+    echo "The package fcitx-hangul is removed"
+fi
+if pacman -Qs fcitx5-configtool > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx-configtool
+    echo "The package fcitx-configtool is removed"
+fi
+
+
+# 기존 fcitx5 패키지가 존재하면 삭제
 if pacman -Qs fcitx5-im > /dev/null ; 
 then
     yes | sudo pacman -R fcitx5-im
     echo "The package fcitx5-im is removed"
 fi
-
 if pacman -Qs fcitx5-hangul > /dev/null ; 
 then
     yes | sudo pacman -R fcitx5-hangul
     echo "The package fcitx5-hangul is removed"
 fi
-
 if pacman -Qs fcitx5-configtool > /dev/null ; 
 then
     yes | sudo pacman -R fcitx5-configtool
