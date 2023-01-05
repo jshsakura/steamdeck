@@ -70,6 +70,16 @@ then
     yes | sudo pacman -R fcitx5-hangul
     echo "The package fcitx5-hangul is removed"
 fi
+if pacman -Qs fcitx5-gtk > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-gtk
+    echo "The package fcitx5-gtk is removed"
+fi
+if pacman -Qs fcitx5-qt > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-qt
+    echo "The package fcitx5-qt is removed"
+fi
 if pacman -Qs fcitx5-anthy > /dev/null ; 
 then
     yes | sudo pacman -R fcitx5-anthy
