@@ -109,7 +109,7 @@ sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 
 # ibus 입력기 및 한글 종속성 추가 설치
-yes | sudo pacman -S --needed ibus ibus-hangul libhangul
+yes | sudo pacman -S ibus ibus-hangul libhangul
 
 # /etc/environment
 sudo sed -i "5s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
