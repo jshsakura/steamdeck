@@ -21,14 +21,14 @@ yes | sudo pacman -S --needed ki18n
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
 
-# 기존 fcitx 패키지가 존재하면 삭제
-#if pacman -Qs fcitx > /dev/null ; 
-#then
-#    yes | sudo pacman -Rc fcitx
-#    echo "The package fcitx is removed"
-#fi
+# 기존 fcitx 패키지가 존재하면 관련 패키지까지 모두 제거
+if pacman -Qs fcitx > /dev/null ; 
+then
+    yes | sudo pacman -Rc fcitx
+    echo "The package fcitx is removed"
+fi
 
-# 기존 fcitx5 패키지가 존재하면 삭제
+# 기존 fcitx5 패키지가 존재하면 관련 패키지까지 모두 제거
 if pacman -Qs fcitx5 > /dev/null ; 
 then
     yes | sudo pacman -Rc fcitx5
@@ -36,18 +36,18 @@ then
 fi
 
 
-# 기존 fcitx 설정 문구가 있다면 삭제
+# 기존 fcitx 설정 문구가 있다면 제거
 sudo sed -i "s%GTK_IM_MODULE=fcitx%%" /etc/environment
 sudo sed -i "s%QT_IM_MODULE=fcitx%%" /etc/environment
 sudo sed -i "s%XMODIFIERS=@im=fcitx%%" /etc/environment
 
-# 기존 ibus 설정 문구가 있다면 삭제
+# 기존 ibus 설정 문구가 있다면 제거
 sudo sed -i "s%GTK_IM_MODULE=ibus%%" /etc/environment
 sudo sed -i "s%QT_IM_MODULE=ibus%%" /etc/environment
 sudo sed -i "s%XMODIFIERS=@im=ibus%%" /etc/environment
 sudo sed -i "/^$/d" /etc/environment
 
-# 기존 bashrc ibus 설정 문구가 있다면 삭제
+# 기존 bashrc ibus 설정 문구가 있다면 제거 (터미널 한글 입력용)
 sed -i "/export GTK_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
