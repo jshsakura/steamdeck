@@ -21,20 +21,12 @@ yes | sudo pacman -S --needed ki18n
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
 
-# 기존 fcitx 패키지가 존재하면 관련 패키지까지 모두 제거
+# 기존 fcitx/fcitx5 패키지가 존재하면 관련 패키지까지 모두 제거
 if pacman -Qs fcitx > /dev/null ; 
 then
-    yes | sudo pacman -Rc fcitx
+    yes | sudo pacman -Rc fcitx fcitx5 fcitx5-im fcitx5-gtk libhangul
     echo "The package fcitx is removed"
 fi
-
-# 기존 fcitx5 패키지가 존재하면 관련 패키지까지 모두 제거
-if pacman -Qs fcitx5 > /dev/null ; 
-then
-    yes | sudo pacman -Rc fcitx5
-    echo "The package fcitx5 is removed"
-fi
-
 
 # 기존 fcitx 설정 문구가 있다면 제거
 sudo sed -i "s%GTK_IM_MODULE=fcitx%%" /etc/environment
@@ -53,7 +45,7 @@ sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 
 # ibus 입력기 및 한글 종속성 추가 설치
-yes | sudo pacman -S ibus ibus-hangul libhangul
+yes | sudo pacman -S ibus ibus-hangul
 
 # /etc/environment
 sudo sed -i "3s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
