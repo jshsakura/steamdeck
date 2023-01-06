@@ -56,7 +56,7 @@ sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
 yes | sudo pacman -S ibus ibus-hangul libhangul
 
 # /etc/environment
-sudo sed -i "5s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
+sudo sed -i "3s/$/\nGTK_IM_MODULE=ibus\nQT_IM_MODULE=ibus\nXMODIFIERS=@im=ibus\n/g" /etc/environment
 
 # 터미널 환경에서 데몬 자동실행을 위해 .bashrc 에 추가
 sed -i "5s/$/\nexport GTK_IM_MODULE=ibus\nexport QT_IM_MODULE=ibus\nexport XMODIFIERS=@im=ibus\n/g" $HOME/.bashrc
