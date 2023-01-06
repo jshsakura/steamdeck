@@ -3,6 +3,7 @@
 # 읽기전용 스팀 OS 설정 비활성화
 sudo steamos-readonly disable
 
+# ibus 입력기 및 한글 종속성 remove
 yes | sudo pacman -Rc ibus ibus-hangul libhangul
 
 # 기존 ibus 설정 문구가 있다면 제거
@@ -15,9 +16,6 @@ sudo sed -i "/^$/d" /etc/environment
 sed -i "/export GTK_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export QT_IM_MODULE=ibus/d" $HOME/.bashrc
 sed -i "/export XMODIFIERS=@im=ibus/d" $HOME/.bashrc
-
-# ibus 입력기 및 한글 종속성 remove
-yes | sudo pacman -Rc ibus ibus-hangul libhangul
 
 # 읽기전용 스팀 OS 설정 활성화(원복)
 sudo steamos-readonly enable
