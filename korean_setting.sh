@@ -16,16 +16,22 @@ yes | sudo pacman -S --needed terminus-font noto-fonts-cjk ttf-dejavu
 yes | sudo pacman -S --needed glibc
 
 # 다국어 설정 - 국제화 프레임워크 추가 (설정에서 한국어 선택 가능)
-yes | sudo pacman -S --needed ki18n
+yes | sudo pacman -S ki18n
 
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
-sudo pacman -S --noconfirm plasma
+yes | sudo pacman -S plasma
 
 # 기존 fcitx/fcitx5 패키지가 존재하면 관련 패키지까지 모두 제거
 if pacman -Qs fcitx > /dev/null ; 
 then
-    yes | sudo pacman -Rc fcitx fcitx5 fcitx5-im fcitx5-gtk libhangul
+    yes | sudo pacman -Rc fcitx 
     echo "The package fcitx is removed"
+fi
+
+if pacman -Qs fcitx5 > /dev/null ; 
+then
+    yes | sudo pacman -Rc fcitx5 fcitx5-im libhangul
+    echo "The package fcitx5 is removed"
 fi
 
 # 기존 fcitx 설정 문구가 있다면 제거
