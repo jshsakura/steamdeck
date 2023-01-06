@@ -27,6 +27,14 @@ then
     yes | sudo pacman -R fcitx-configtool
     echo "The package fcitx-configtool is removed"
 fi
+
+# 기존 fcitx5 패키지가 존재하면 삭제
+if pacman -Qs fxitx-5-hangul > /dev/null ; 
+then
+    yes | sudo pacman -R fcitx5-configtool
+    echo "The package fcitx-5-configtool is removed"
+fi
+
 if pacman -Qs fcitx-hangul > /dev/null ; 
 then
     yes | sudo pacman -R fcitx-hangul
@@ -51,44 +59,6 @@ if pacman -Qs fcitx > /dev/null ;
 then
     yes | sudo pacman -R fcitx
     echo "The package fcitx is removed"
-fi
-
-
-# 기존 fcitx5 패키지가 존재하면 삭제
-if pacman -Qs fcitx5-configtool > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-configtool
-    echo "The package fcitx5-configtool is removed"
-fi
-if pacman -Qs fcitx5-im > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-im
-    echo "The package fcitx5-im is removed"
-fi
-if pacman -Qs fcitx5-hangul > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-hangul
-    echo "The package fcitx5-hangul is removed"
-fi
-if pacman -Qs fcitx5-gtk > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-gtk
-    echo "The package fcitx5-gtk is removed"
-fi
-if pacman -Qs fcitx5-qt > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-qt
-    echo "The package fcitx5-qt is removed"
-fi
-if pacman -Qs fcitx5-anthy > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5-anthy
-    echo "The package fcitx5-anthy is removed"
-fi
-if pacman -Qs fcitx5 > /dev/null ; 
-then
-    yes | sudo pacman -R fcitx5
-    echo "The package fcitx5 is removed"
 fi
 
 
