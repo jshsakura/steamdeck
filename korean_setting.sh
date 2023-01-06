@@ -19,7 +19,7 @@ yes | sudo pacman -S --needed glibc
 yes | sudo pacman -S ki18n
 
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
-yes | sudo pacman -S plasma
+sudo pacman -S --noconfirm plasma
 
 # 기존 fcitx/fcitx5 패키지가 존재하면 관련 패키지까지 모두 제거
 if pacman -Qs fcitx > /dev/null ; 
