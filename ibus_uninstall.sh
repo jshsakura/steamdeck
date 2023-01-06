@@ -3,7 +3,6 @@
 # 읽기전용 스팀 OS 설정 비활성화
 sudo steamos-readonly disable
 
-yes | sudo pacman -Rc ibus
 yes | sudo pacman -Rc libibus
 
 # 기존 ibus 설정 문구가 있다면 제거
