@@ -3,7 +3,7 @@
 # 읽기전용 스팀 OS 설정 비활성화
 sudo steamos-readonly disable
 
-yes | sudo pacman -Rc libibus
+yes | sudo pacman -Rc ibus ibus-hangul libibus libhangul
 
 # 기존 ibus 설정 문구가 있다면 제거
 sudo sed -i "s%GTK_IM_MODULE=ibus%%" /etc/environment
