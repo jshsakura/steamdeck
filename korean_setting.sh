@@ -16,7 +16,7 @@ yes | sudo pacman -S --needed terminus-font noto-fonts-cjk ttf-dejavu
 yes | sudo pacman -S --needed glibc
 
 # 다국어 설정 - 국제화 프레임워크 추가 (설정에서 한국어 선택 가능)
-yes | sudo pacman -S ki18n
+sudo pacman -S --noconfirm ki18n
 
 # 다국어 설정 이후 스팀덱의 데스크탑인 KDE 플라즈마 재설치
 sudo pacman -S --noconfirm plasma
