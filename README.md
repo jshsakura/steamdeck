@@ -99,7 +99,6 @@ ibus-setup
 ```sh
 curl -L https://raw.githubusercontent.com/jshsakura/steamdeck/main/ibus_uninstall.sh | sh
 ```
-```
 
   
 <br/><br/>
