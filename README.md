@@ -95,7 +95,7 @@ ibus-setup
 **여러분 모두 한글 입력의 고통에서 벗어나시길 바랍니다.**
 
 <br/><br/>
-### 만약 정상적인 사용이 되지 않을때 ibus 삭제
+#### 만약 정상적인 사용이 되지 않을때 ibus 삭제시 아래 명령어 사용
 ```sh
 curl -L https://raw.githubusercontent.com/jshsakura/steamdeck/main/ibus_uninstall.sh | sh
 ```
