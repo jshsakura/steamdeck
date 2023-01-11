@@ -1,4 +1,4 @@
-# 스팀 OS 3.4.4 한글 로케일 및 ibus 입력기 설치 간소화
+# :black_square_button:스팀 OS 3.4.4 한글 로케일 및 ibus 입력기 설치 간소화
 
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbUAGSD%2FbtrVo5rsvE4%2FtK46tvRObfgwl7Kl2DaIs1%2Fimg.png)
 
@@ -81,7 +81,7 @@ ibus-setup
 
 이는 한글 키보드로 전환시 기본적으로 입력기의 언어를 한글모드로 만든다는 의미의 설정입니다.
 
-위 사진처럼 `Start in hangul mode`를 체크한 뒤 아래의 `Apply` -> `OK` 를 눌러 설정을 완료합니다.  <br/><br/><br/><br/>  
+위 사진처럼 `Start in hangul mode`를 체크한 뒤 아래의 `Apply` :point_right: `OK` 를 눌러 설정을 완료합니다.  <br/><br/><br/><br/>  
 
 
 
