@@ -66,7 +66,7 @@ ibus-setup
    
 ![img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOwEN4%2FbtrVfrXtkFM%2FKDdNU0axWpZ2VdkSE22Agk%2Fimg.png)
 
-설정 화면 두번째 탭인 `Input Method` 탭에서 `korean` -> `hangul` 입력기를 추가합니다.  <br/><br/><br/><br/>  
+설정 화면 두번째 탭인 `Input Method` 탭에서 `korean` :point_right: `hangul` 입력기를 추가합니다.  <br/><br/><br/><br/>  
 
 
 
