@@ -105,7 +105,7 @@ curl -L https://raw.githubusercontent.com/jshsakura/steamdeck/main/ibus_uninstal
 ### 초심자를 위한 조금 더 자세한 안내
 ---
 
-[스팀덱 ibus 설치 가이드](https://opencourse.tistory.com/769)
+[스팀덱 ibus 설치 가이드](https://opencourse.kr/seutimdeg-hangeulibryeog-munje-haegyeol-ibus-seolci-gaideu/)
 
 만약 리눅스에 대해 문외한이라 작업이 어려운 분들의 경우, 개인 블로그에 전체 과정을 작성해 두었으니 참고해보시기 바랍니다.
 
